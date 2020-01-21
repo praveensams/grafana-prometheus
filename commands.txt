@@ -1,0 +1,12 @@
+Grafana and Prometheus installation 
+
+Prerequisite:
+    Helm 
+
+Command to execute:
+  helm install -f grafana-values.yaml stable/grafana --name grafana --namespace grafana
+helm install -f prometheus-values.yaml stable/prometheus --name prometheus --namespace prometheus
+
+Reference: 
+URL: https://eksworkshop.com/tigera/monitoring/dashboards/
+
